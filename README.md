@@ -187,8 +187,8 @@
    - 3.2 Core HTML Tags
 
 11. **Integrating JavaScript into HTML**
-   - 11.1 **Introduction to Canvas**
-   - 11.2 **Internal JavaScript**
-   - 11.3 **External JavaScript**
-   - 11.4 **Asynchronous and Deferred JavaScript**
-   - 11.5 **Embedding JavaScript in HTML5 Data Attributes**
+   - 11.1 Introduction to Canvas
+   - 11.2 Internal JavaScript
+   - 11.3 External JavaScript
+   - 11.4 Asynchronous and Deferred JavaScript
+   - 11.5 Embedding JavaScript in HTML5 Data Attributes
