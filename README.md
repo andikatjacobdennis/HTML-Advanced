@@ -181,3 +181,9 @@
       - 10.10.1 Optimizing Canvas Rendering
       - 10.10.2 Managing Large Drawings and Redraws
       - 10.10.3 Efficiently Handling User Interactions
+11. **Integrating JavaScript into HTML**
+   - 11.1 **Introduction to Canvas**
+   - 11.2 **Internal JavaScript**
+   - 11.3 **External JavaScript**
+   - 11.4 **Asynchronous and Deferred JavaScript**
+   - 11.5 **Embedding JavaScript in HTML5 Data Attributes**
