@@ -182,11 +182,12 @@
       - 10.10.2 Managing Large Drawings and Redraws
       - 10.10.3 Efficiently Handling User Interactions
 
-3. **HTML Elements and Tags**
-   - 3.1 Block-Level vs Inline Elements: Display Characteristics
-   - 3.2 Core HTML Tags
+11. **HTML Elements and Tags**
+   - 11.1 Block-Level vs Inline Elements: Display Characteristics
+   - 11.2 Core HTML Tags
 
 11. **Integrating JavaScript into HTML**
+   - 3.1 Block-Level vs Inline Elements: Display Characteristics
    - 11.1 Introduction to Canvas
    - 11.2 Internal JavaScript
    - 11.3 External JavaScript
