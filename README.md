@@ -2,11 +2,7 @@
 
 1. **Introduction to HTML5**
    - 1.1 HTML Overview
-   - 1.2 Evolution of HTML: From HTML to HTML5
-   - 1.3 Advantages of HTML5
-   - 1.4 HTML vs. XHTML: Key Differences
-   - 1.5 Setting Up an HTML Development Environment
-   - 1.6 HTML Editors: Text Editors and IDEs
+   - 1.2 HTML vs. XHTML
 
 2. **Basic Structure of an HTML Document**
    - 2.1 `<!DOCTYPE>` Declaration
