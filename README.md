@@ -108,7 +108,7 @@
    - 9.4 Using ``<iframe>`` for Embedding External Content
    - 9.5 Scalable Vector Graphics (SVG): Embedding, Styling, and Scripting SVGs
    - 9.6 Web Components and Shadow DOM: Reusable Custom Elements
-  
+
 10. **Integrating JavaScript into HTML**
    - 10.1 Introduction to JavaScript and HTML
    - 10.2 Internal JavaScript
