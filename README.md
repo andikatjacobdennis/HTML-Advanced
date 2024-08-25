@@ -108,8 +108,16 @@
    - 9.4 Using `<iframe>` for Embedding External Content
    - 9.5 Scalable Vector Graphics (SVG): Embedding, Styling, and Scripting SVGs
    - 9.6 Web Components and Shadow DOM: Reusable Custom Elements
+  
+10. **Integrating JavaScript into HTML**
+   - 3.1 Block-Level vs Inline Elements: Display Characteristics
+   - 11.1 Introduction to Canvas
+   - 11.2 Internal JavaScript
+   - 11.3 External JavaScript
+   - 11.4 Asynchronous and Deferred JavaScript
+   - 11.5 Embedding JavaScript in HTML5 Data Attributes
 
-10. **Canvas API: Drawing Graphics with `<canvas>`**
+11. **Canvas API: Drawing Graphics with `<canvas>`**
    - 10.1 **Introduction to Canvas**
       - 10.1.1 What is the Canvas Element?
       - 10.1.2 Use Cases for Canvas: Graphics, Animations, and Games
