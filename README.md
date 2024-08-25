@@ -181,6 +181,9 @@
       - 10.10.1 Optimizing Canvas Rendering
       - 10.10.2 Managing Large Drawings and Redraws
       - 10.10.3 Efficiently Handling User Interactions
+      - 
+2. **Basic Structure of an HTML Document**
+   - 2.1 rhhrh
         
 11. **Integrating JavaScript into HTML**
    - 11.1 **Introduction to Canvas**
