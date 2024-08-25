@@ -112,66 +112,78 @@
    - 9.4 Using `<iframe>` for Embedding External Content
    - 9.5 Scalable Vector Graphics (SVG): Embedding, Styling, and Scripting SVGs
    - 9.6 Web Components and Shadow DOM: Reusable Custom Elements
+     
+10. **Canvas API: Drawing Graphics with `<canvas>`**
 
-10. **Canvas API: Drawing Graphics with <canvas>**
-10.1 Introduction to Canvas
-10.1.1 What is the Canvas Element?
-10.1.2 Use Cases for Canvas: Graphics, Animations, and Games
-10.1.3 Basic Syntax and Structure of <canvas>
-10.1.3.1 Creating a Canvas Element (<canvas>)
-10.1.3.2 Setting Width and Height Attributes
-10.1.3.3 Accessing the Canvas Context
-10.2 Canvas Rendering Contexts
-10.2.1 2D Rendering Context (CanvasRenderingContext2D)
-10.2.1.1 Obtaining a 2D Context (getContext('2d'))
-10.2.1.2 Drawing Shapes: Rectangles, Circles, and Paths
-10.2.1.3 Filling and Stroking Shapes
-10.2.1.4 Applying Styles and Colors
-10.2.1.5 Text Drawing and Styling
-10.2.1.6 Transformations: Scaling, Rotation, and Translation
-10.2.1.7 Working with Gradients and Patterns
-10.2.1.8 Clipping Regions and Compositing
-10.2.1.9 Working with Images: Drawing and Manipulating
-10.2.2 WebGL Rendering Context (WebGLRenderingContext)
-10.2.2.1 Introduction to WebGL: 3D Graphics on the Web
-10.2.2.2 Basic WebGL Setup and Initialization
-10.2.2.3 Drawing Basic 3D Shapes: Triangles, Lines
-10.2.2.4 Shaders and Buffers: Understanding and Using
-10.3 Drawing Basic Shapes and Paths
-10.3.1 Drawing Rectangles: fillRect(), strokeRect(), clearRect()
-10.3.2 Drawing Circles and Ellipses: arc(), ellipse()
-10.3.3 Drawing Paths: beginPath(), moveTo(), lineTo(), closePath()
-10.3.4 Combining Paths and Shapes
-10.4 Filling and Stroking Shapes
-10.4.1 Using fill() and stroke() Methods
-10.4.2 Customizing Fill and Stroke Styles
-10.4.2.1 Solid Colors
-10.4.2.2 Linear and Radial Gradients
-10.4.2.3 Patterns and Images
-10.5 Text Drawing and Styling
-10.5.1 Drawing Text: fillText(), strokeText()
-10.5.2 Text Styling: Font, Size, Alignment, and Baseline
-10.5.3 Text Metrics and Measuring Text Dimensions
-10.6 Transformations
-10.6.1 Translation: Moving the Canvas Origin
-10.6.2 Rotation: Rotating the Canvas
-10.6.3 Scaling: Resizing the Canvas
-10.6.4 Applying Multiple Transformations
-10.7 Working with Images
-10.7.1 Drawing Images: drawImage() Method
-10.7.2 Image Slicing and Cropping
-10.7.3 Manipulating Image Data: getImageData(), putImageData()
-10.7.4 Using Canvas as a Data Source: Exporting to PNG/JPEG
-10.8 Animations and Interactivity
-10.8.1 Creating Animations with requestAnimationFrame()
-10.8.2 Handling User Input: Mouse and Keyboard Events
-10.8.3 Updating Canvas Content Dynamically
-10.9 Advanced Canvas Techniques
-10.9.1 Offscreen Canvas: Using OffscreenCanvas for Background Processing
-10.9.2 Image and Video Effects: Filters and Compositing
-10.9.3 Using WebGL for Complex 3D Graphics
-10.9.4 Integrating Canvas with Other Web Technologies
-10.10 Performance Considerations
-10.10.1 Optimizing Canvas Rendering
-10.10.2 Managing Large Drawings and Redraws
-10.10.3 Efficiently Handling User Interactions
+   - 10.1 **Introduction to Canvas**
+      - 10.1.1 What is the Canvas Element?
+      - 10.1.2 Use Cases for Canvas: Graphics, Animations, and Games
+      - 10.1.3 Basic Syntax and Structure of `<canvas>`
+         - 10.1.3.1 Creating a Canvas Element (`<canvas>`)
+         - 10.1.3.2 Setting Width and Height Attributes
+         - 10.1.3.3 Accessing the Canvas Context
+
+   - 10.2 **Canvas Rendering Contexts**
+      - 10.2.1 2D Rendering Context (`CanvasRenderingContext2D`)
+         - 10.2.1.1 Obtaining a 2D Context (`getContext('2d')`)
+         - 10.2.1.2 Drawing Shapes: Rectangles, Circles, and Paths
+         - 10.2.1.3 Filling and Stroking Shapes
+         - 10.2.1.4 Applying Styles and Colors
+         - 10.2.1.5 Text Drawing and Styling
+         - 10.2.1.6 Transformations: Scaling, Rotation, and Translation
+         - 10.2.1.7 Working with Gradients and Patterns
+         - 10.2.1.8 Clipping Regions and Compositing
+         - 10.2.1.9 Working with Images: Drawing and Manipulating
+      - 10.2.2 WebGL Rendering Context (`WebGLRenderingContext`)
+         - 10.2.2.1 Introduction to WebGL: 3D Graphics on the Web
+         - 10.2.2.2 Basic WebGL Setup and Initialization
+         - 10.2.2.3 Drawing Basic 3D Shapes: Triangles, Lines
+         - 10.2.2.4 Shaders and Buffers: Understanding and Using
+
+   - 10.3 **Drawing Basic Shapes and Paths**
+      - 10.3.1 Drawing Rectangles: `fillRect()`, `strokeRect()`, `clearRect()`
+      - 10.3.2 Drawing Circles and Ellipses: `arc()`, `ellipse()`
+      - 10.3.3 Drawing Paths: `beginPath()`, `moveTo()`, `lineTo()`, `closePath()`
+      - 10.3.4 Combining Paths and Shapes
+
+   - 10.4 **Filling and Stroking Shapes**
+      - 10.4.1 Using `fill()` and `stroke()` Methods
+      - 10.4.2 Customizing Fill and Stroke Styles
+         - 10.4.2.1 Solid Colors
+         - 10.4.2.2 Linear and Radial Gradients
+         - 10.4.2.3 Patterns and Images
+
+   - 10.5 **Text Drawing and Styling**
+      - 10.5.1 Drawing Text: `fillText()`, `strokeText()`
+      - 10.5.2 Text Styling: Font, Size, Alignment, and Baseline
+      - 10.5.3 Text Metrics and Measuring Text Dimensions
+
+   - 10.6 **Transformations**
+      - 10.6.1 Translation: Moving the Canvas Origin
+      - 10.6.2 Rotation: Rotating the Canvas
+      - 10.6.3 Scaling: Resizing the Canvas
+      - 10.6.4 Applying Multiple Transformations
+
+   - 10.7 **Working with Images**
+      - 10.7.1 Drawing Images: `drawImage()` Method
+      - 10.7.2 Image Slicing and Cropping
+      - 10.7.3 Manipulating Image Data: `getImageData()`, `putImageData()`
+      - 10.7.4 Using Canvas as a Data Source: Exporting to PNG/JPEG
+
+   - 10.8 **Animations and Interactivity**
+      - 10.8.1 Creating Animations with `requestAnimationFrame()`
+      - 10.8.2 Handling User Input: Mouse and Keyboard Events
+      - 10.8.3 Updating Canvas Content Dynamically
+
+   - 10.9 **Advanced Canvas Techniques**
+      - 10.9.1 Offscreen Canvas: Using `OffscreenCanvas` for Background Processing
+      - 10.9.2 Image and Video Effects: Filters and Compositing
+      - 10.9.3 Using WebGL for Complex 3D Graphics
+      - 10.9.4 Integrating Canvas with Other Web Technologies
+
+   - 10.10 **Performance Considerations**
+      - 10.10.1 Optimizing Canvas Rendering
+      - 10.10.2 Managing Large Drawings and Redraws
+      - 10.10.3 Efficiently Handling User Interactions
+
+---
