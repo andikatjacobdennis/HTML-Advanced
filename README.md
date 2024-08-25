@@ -110,7 +110,6 @@
    - 9.6 Web Components and Shadow DOM: Reusable Custom Elements
      
 10. **Canvas API: Drawing Graphics with `<canvas>`**
-
    - 10.1 **Introduction to Canvas**
       - 10.1.1 What is the Canvas Element?
       - 10.1.2 Use Cases for Canvas: Graphics, Animations, and Games
