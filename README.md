@@ -19,7 +19,7 @@
 3. **HTML Elements and Tags**
    - 3.1 Block-Level vs Inline Elements: Display Characteristics
    - 3.2 Core HTML Tags
-      - 3.2.1 Headings (h1 to h6) and Semantic Importance
+      - 3.2.1 Headings (`<h1>` to `<h6>`) and Semantic Importance
       - 3.2.2 Paragraphs (<p>) and Text Formatting Tags (<strong>, <em>, <code>)
       - 3.2.3 Links (<a>): Internal vs External Links, target Attribute
       - 3.2.4 Images (<img>): Source, Alternative Text, and Optimization Techniques
