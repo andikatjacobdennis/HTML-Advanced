@@ -113,50 +113,65 @@
    - 9.5 Scalable Vector Graphics (SVG): Embedding, Styling, and Scripting SVGs
    - 9.6 Web Components and Shadow DOM: Reusable Custom Elements
 
-10. **HTML5 APIs and Advanced Features**
-    - 10.1 Canvas API: Drawing Graphics with `<canvas>`
-       - 10.1.1 Basic Drawing Operations (Rectangles, Circles, Lines)
-       - 10.1.2 Advanced Graphics: Animations and Interactive Charts
-    - 10.2 Geolocation API: Accessing and Using User Location
-    - 10.3 Web Storage API: `LocalStorage` and `SessionStorage` for Client-Side Data Persistence
-    - 10.4 Offline Web Applications: Using the Application Cache and Service Workers
-    - 10.5 Drag and Drop API: Enabling Drag and Drop Functionality
-    - 10.6 Web Workers: Multithreading in JavaScript for Performance Improvement
-
-11. **Advanced Document Structuring and Navigation**
-    - 11.1 HTML5 Document Outlines: Understanding and Using the Outline Algorithm
-    - 11.2 Deep Linking and Anchor Navigation: Using IDs and Named Anchors
-    - 11.3 Sitemaps and
-
- SEO Best Practices for HTML5
-    - 11.4 Accessibility in HTML: ARIA Roles and Attributes
-    - 11.5 Best Practices for Content Organization and Readability
-
-12. **Performance Optimization and Best Practices**
-    - 12.1 Reducing HTML Page Load Time: Minification and Compression Techniques
-    - 12.2 Lazy Loading Images and Iframes for Performance Gains
-    - 12.3 Best Practices for Writing Clean, Maintainable HTML
-    - 12.4 Security Considerations: Preventing XSS and Injection Attacks
-    - 12.5 HTML Style Guide: Coding Standards and Conventions
-
-13. **Responsive Design and Mobile Web Development**
-    - 13.1 Responsive Design Principles: Fluid Grids, Flexible Images, and Media Queries
-    - 13.2 Mobile-First Design Strategy: Enhancing User Experience on Mobile Devices
-    - 13.3 Responsive Typography and Text Scaling Techniques
-    - 13.4 Creating a Responsive Navigation Menu
-    - 13.5 Testing Responsiveness: Tools and Techniques
-
-14. **HTML5 and JavaScript Integration**
-    - 14.1 Enhancing User Interaction with JavaScript and HTML5
-    - 14.2 Event Handling and DOM Manipulation
-    - 14.3 Using JavaScript to Modify HTML Content Dynamically
-    - 14.4 Validating Forms with JavaScript and HTML5 API
-    - 14.5 AJAX and Fetch API: Asynchronous Data Loading in HTML5
-    - 14.6 Integrating Third-Party Libraries (e.g., jQuery, React) with HTML5
-
-15. **HTML5 Projects and Case Studies**
-    - 15.1 Real-World HTML5 Projects: Building a Portfolio Website
-    - 15.2 HTML5 Best Practices: Case Studies and Common Mistakes to Avoid
-    - 15.3 Responsive Web Design Project: A Step-by-Step Guide
-    - 15.4 Building a Single-Page Application (SPA) with HTML5
-    - 15.5 SEO-Friendly HTML5: Optimizing Content for Search Engines
+10. **Canvas API: Drawing Graphics with <canvas>**
+10.1 Introduction to Canvas
+10.1.1 What is the Canvas Element?
+10.1.2 Use Cases for Canvas: Graphics, Animations, and Games
+10.1.3 Basic Syntax and Structure of <canvas>
+10.1.3.1 Creating a Canvas Element (<canvas>)
+10.1.3.2 Setting Width and Height Attributes
+10.1.3.3 Accessing the Canvas Context
+10.2 Canvas Rendering Contexts
+10.2.1 2D Rendering Context (CanvasRenderingContext2D)
+10.2.1.1 Obtaining a 2D Context (getContext('2d'))
+10.2.1.2 Drawing Shapes: Rectangles, Circles, and Paths
+10.2.1.3 Filling and Stroking Shapes
+10.2.1.4 Applying Styles and Colors
+10.2.1.5 Text Drawing and Styling
+10.2.1.6 Transformations: Scaling, Rotation, and Translation
+10.2.1.7 Working with Gradients and Patterns
+10.2.1.8 Clipping Regions and Compositing
+10.2.1.9 Working with Images: Drawing and Manipulating
+10.2.2 WebGL Rendering Context (WebGLRenderingContext)
+10.2.2.1 Introduction to WebGL: 3D Graphics on the Web
+10.2.2.2 Basic WebGL Setup and Initialization
+10.2.2.3 Drawing Basic 3D Shapes: Triangles, Lines
+10.2.2.4 Shaders and Buffers: Understanding and Using
+10.3 Drawing Basic Shapes and Paths
+10.3.1 Drawing Rectangles: fillRect(), strokeRect(), clearRect()
+10.3.2 Drawing Circles and Ellipses: arc(), ellipse()
+10.3.3 Drawing Paths: beginPath(), moveTo(), lineTo(), closePath()
+10.3.4 Combining Paths and Shapes
+10.4 Filling and Stroking Shapes
+10.4.1 Using fill() and stroke() Methods
+10.4.2 Customizing Fill and Stroke Styles
+10.4.2.1 Solid Colors
+10.4.2.2 Linear and Radial Gradients
+10.4.2.3 Patterns and Images
+10.5 Text Drawing and Styling
+10.5.1 Drawing Text: fillText(), strokeText()
+10.5.2 Text Styling: Font, Size, Alignment, and Baseline
+10.5.3 Text Metrics and Measuring Text Dimensions
+10.6 Transformations
+10.6.1 Translation: Moving the Canvas Origin
+10.6.2 Rotation: Rotating the Canvas
+10.6.3 Scaling: Resizing the Canvas
+10.6.4 Applying Multiple Transformations
+10.7 Working with Images
+10.7.1 Drawing Images: drawImage() Method
+10.7.2 Image Slicing and Cropping
+10.7.3 Manipulating Image Data: getImageData(), putImageData()
+10.7.4 Using Canvas as a Data Source: Exporting to PNG/JPEG
+10.8 Animations and Interactivity
+10.8.1 Creating Animations with requestAnimationFrame()
+10.8.2 Handling User Input: Mouse and Keyboard Events
+10.8.3 Updating Canvas Content Dynamically
+10.9 Advanced Canvas Techniques
+10.9.1 Offscreen Canvas: Using OffscreenCanvas for Background Processing
+10.9.2 Image and Video Effects: Filters and Compositing
+10.9.3 Using WebGL for Complex 3D Graphics
+10.9.4 Integrating Canvas with Other Web Technologies
+10.10 Performance Considerations
+10.10.1 Optimizing Canvas Rendering
+10.10.2 Managing Large Drawings and Redraws
+10.10.3 Efficiently Handling User Interactions
