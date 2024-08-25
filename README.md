@@ -1,5 +1,3 @@
-Here's the corrected numbering for sections 10 and 11:
-
 **Table of Contents**
 
 1. **Introduction to HTML5**
@@ -119,15 +117,14 @@ Here's the corrected numbering for sections 10 and 11:
    - 10.5 Embedding JavaScript in HTML5 Data Attributes
 
 11. **Canvas API: Drawing Graphics with <canvas>**
-   - 11.1 **Introduction to Canvas**
+   - 11.1 Introduction to Canvas
       - 11.1.1 What is the Canvas Element?
       - 11.1.2 Use Cases for Canvas: Graphics, Animations, and Games
       - 11.1.3 Basic Syntax and Structure of <canvas>
          - 11.1.3.1 Creating a Canvas Element (<canvas>)
          - 11.1.3.2 Setting Width and Height Attributes
          - 11.1.3.3 Accessing the Canvas Context
-
-   - 11.2 **Canvas Rendering Contexts**
+   - 11.2 Canvas Rendering Contexts
       - 11.2.1 2D Rendering Context (CanvasRenderingContext2D)
          - 11.2.1.1 Obtaining a 2D Context (getContext('2d'))
          - 11.2.1.2 Drawing Shapes: Rectangles, Circles, and Paths
@@ -137,50 +134,51 @@ Here's the corrected numbering for sections 10 and 11:
          - 11.2.1.6 Transformations: Scaling, Rotation, and Translation
          - 11.2.1.7 Working with Gradients and Patterns
          - 11.2.1.8 Clipping Regions and Compositing
-         - 11.2.1.9 Working with Images: Drawing, Cropping, and Manipulating
-         - 11.2.1.10 Animating Canvas: Creating Frame-Based Animations
-         - 11.2.1.11 Interactivity: Capturing Mouse and Keyboard Events
-         - 11.2.1.12 Saving and Restoring Canvas States
-         - 11.2.1.13 Optimizing Canvas Performance
+      - 11.2.2 WebGL and 3D Rendering Context (CanvasRenderingContextWebGL)
+         - 11.2.2.1 Introduction to WebGL
+         - 11.2.2.2 Setting Up a WebGL Context
+         - 11.2.2.3 Drawing 3D Shapes and Scenes
+         - 11.2.2.4 Using Shaders and Buffers
+         - 11.2.2.5 WebGL vs Canvas 2D: Performance and Use Cases
+   - 11.3 Animations and Interactivity
+      - 11.3.1 Animating Graphics with requestAnimationFrame
+      - 11.3.2 Handling User Input: Mouse and Keyboard Events
+      - 11.3.3 Creating Interactive Games and Visualizations
+      - 11.3.4 Performance Optimization for Canvas Animations
+   - 11.4 Advanced Canvas Techniques
+      - 11.4.1 Saving and Restoring State
+      - 11.4.2 Composite Operations and Effects
+      - 11.4.3 Canvas and Accessibility: Improving Accessibility of Canvas Content
 
-   - 11.2.2 WebGL Context for 3D Rendering (Optional Overview)
-      - 11.2.2.1 Introduction to WebGL and 3D Graphics
-      - 11.2.2.2 WebGL vs Canvas 2D: Use Cases and Differences
-      - 11.2.2.3 Setting Up a WebGL Context (getContext('webgl'))
-      - 11.2.2.4 Drawing 3D Objects: Triangles, Cubes, and More
-      - 11.2.2.5 Shaders and Lighting Techniques in WebGL
-      - 11.2.2.6 Advanced WebGL Topics: Textures, Buffers, and Animations
-      - 11.2.2.7 Resources for Learning WebGL
+12. **HTML5 APIs and Advanced Features**
+   - 12.1 Geolocation API
+   - 12.2 Web Storage API
+   - 12.3 Web Workers
+   - 12.4 WebSockets
+   - 12.5 Offline Web Applications
+   - 12.6 IndexedDB
+   - 12.7 Client-Side Web APIs Overview
 
-   - 11.3 **Best Practices for Canvas Development**
-      - 11.3.1 Performance Considerations and Optimization Techniques
-      - 11.3.2 Accessibility Concerns: Providing Alternative Content
-      - 11.3.3 Cross-Browser Compatibility and Fallback Options
-      - 11.3.4 Debugging Canvas Applications
-      - 11.3.5 Case Studies: Popular Applications Built with Canvas
+13. **Accessibility and Best Practices**
+   - 13.1 Importance of Accessibility in Web Design
+   - 13.2 ARIA Roles and Attributes
+   - 13.3 Creating Accessible Forms
+   - 13.4 Accessible Navigation and Interactions
+   - 13.5 Testing and Validating Accessibility
 
-12. **HTML Accessibility**
-   - 12.1 Introduction to Web Accessibility
-   - 12.2 Accessible Forms: ARIA Attributes and Error Handling
-   - 12.3 Semantic HTML for Better Accessibility
-   - 12.4 Keyboard Navigation and Focus Management
-   - 12.5 Accessible Images and Media: Providing Alt Text and Transcripts
-   - 12.6 Color Contrast and Visual Impairment Considerations
-   - 12.7 Testing for Accessibility: Tools and Techniques
-   - 12.8 Accessibility Standards: WCAG and ARIA Guidelines
+14. **SEO and HTML**
+   - 14.1 Importance of SEO for Web Pages
+   - 14.2 HTML Tags for SEO: <meta>, <title>, <header>, <footer>
+   - 14.3 Optimizing Page Speed and Performance
+   - 14.4 Best Practices for HTML and SEO
 
-13. **HTML Best Practices and Performance Optimization**
-   - 13.1 Clean Code Practices for HTML
-   - 13.2 Optimizing HTML for SEO: Metadata, Headings, and Structure
-   - 13.3 Reducing Page Load Time: Minification, Compression, and Lazy Loading
-   - 13.4 Leveraging Browser Caching and CDN Integration
-   - 13.5 Debugging HTML: Common Issues and Solutions
-   - 13.6 Internationalization and Localization Considerations
+15. **HTML Validation and Debugging**
+   - 15.1 HTML Validators and Tools
+   - 15.2 Common HTML Errors and Fixes
+   - 15.3 Debugging HTML with Browser Developer Tools
 
-14. **Advanced HTML Topics**
-   - 14.1 HTML5 APIs: Geolocation, Web Storage, and Offline Web Apps
-   - 14.2 HTML Templating Engines: Mustache, Handlebars, and Beyond
-   - 14.3 Integrating HTML with Modern Front-End Frameworks (React, Angular, Vue)
-   - 14.4 HTML and Web Components: Building Reusable Custom Elements
-   - 14.5 Progressive Web Apps (PWAs): Turning HTML into Native-Like Applications
-   - 14.6 Future of HTML: Emerging Standards and Trends
+16. **HTML and Modern Web Development Trends**
+   - 16.1 Responsive Web Design and HTML
+   - 16.2 Progressive Web Apps (PWAs)
+   - 16.3 HTML and Mobile-First Design
+   - 16.4 Future of HTML and Emerging Standards
