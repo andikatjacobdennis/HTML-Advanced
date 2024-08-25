@@ -108,83 +108,137 @@
    - 9.4 Using `<iframe>` for Embedding External Content
    - 9.5 Scalable Vector Graphics (SVG): Embedding, Styling, and Scripting SVGs
    - 9.6 Web Components and Shadow DOM: Reusable Custom Elements
-  
+
 10. **Integrating JavaScript into HTML**
-   - 3.1 Block-Level vs Inline Elements: Display Characteristics
-   - 11.1 Introduction to Canvas
-   - 11.2 Internal JavaScript
-   - 11.3 External JavaScript
-   - 11.4 Asynchronous and Deferred JavaScript
-   - 11.5 Embedding JavaScript in HTML5 Data Attributes
+   - 10.1 Internal JavaScript
+   - 10.2 External JavaScript
+   - 10.3 Asynchronous and Deferred JavaScript
+   - 10.4 Embedding JavaScript in HTML5 Data Attributes
 
 11. **Canvas API: Drawing Graphics with `<canvas>`**
-   - 10.1 **Introduction to Canvas**
-      - 10.1.1 What is the Canvas Element?
-      - 10.1.2 Use Cases for Canvas: Graphics, Animations, and Games
-      - 10.1.3 Basic Syntax and Structure of `<canvas>`
-         - 10.1.3.1 Creating a Canvas Element (`<canvas>`)
-         - 10.1.3.2 Setting Width and Height Attributes
-         - 10.1.3.3 Accessing the Canvas Context
+   - 11.1 **Introduction to Canvas**
+      - 11.1.1 What is the Canvas Element?
+      - 11.1.2 Use Cases for Canvas: Graphics, Animations, and Games
+      - 11.1.3 Basic Syntax and Structure of `<canvas>`
+         - 11.1.3.1 Creating a Canvas Element (`<canvas>`)
+         - 11.1.3.2 Setting Width and Height Attributes
+         - 11.1.3.3 Accessing the Canvas Context
+   - 11.2 **Canvas Rendering Contexts**
+      - 11.2.1 2D Rendering Context (`CanvasRenderingContext2D`)
+         - 11.2.1.1 Obtaining a 2D Context (`getContext('2d')`)
+         - 11.2.1.2 Drawing Shapes: Rectangles, Circles, and Paths
+         - 11.2.1.3 Filling and Stroking Shapes
+         - 11.2.
 
-   - 10.2 **Canvas Rendering Contexts**
-      - 10.2.1 2D Rendering Context (`CanvasRenderingContext2D`)
-         - 10.2.1.1 Obtaining a 2D Context (`getContext('2d')`)
-         - 10.2.1.2 Drawing Shapes: Rectangles, Circles, and Paths
-         - 10.2.1.3 Filling and Stroking Shapes
-         - 10.2.1.4 Applying Styles and Colors
-         - 10.2.1.5 Text Drawing and Styling
-         - 10.2.1.6 Transformations: Scaling, Rotation, and Translation
-         - 10.2.1.7 Working with Gradients and Patterns
-         - 10.2.1.8 Clipping Regions and Compositing
-         - 10.2.1.9 Working with Images: Drawing and Manipulating
-      - 10.2.2 WebGL Rendering Context (`WebGLRenderingContext`)
-         - 10.2.2.1 Introduction to WebGL: 3D Graphics on the Web
-         - 10.2.2.2 Basic WebGL Setup and Initialization
-         - 10.2.2.3 Drawing Basic 3D Shapes: Triangles, Lines
-         - 10.2.2.4 Shaders and Buffers: Understanding and Using
-   - 10.3 **Drawing Basic Shapes and Paths**
-      - 10.3.1 Drawing Rectangles: `fillRect()`, `strokeRect()`, `clearRect()`
-      - 10.3.2 Drawing Circles and Ellipses: `arc()`, `ellipse()`
-      - 10.3.3 Drawing Paths: `beginPath()`, `moveTo()`, `lineTo()`, `closePath()`
-      - 10.3.4 Combining Paths and Shapes
-   - 10.4 **Filling and Stroking Shapes**
-      - 10.4.1 Using `fill()` and `stroke()` Methods
-      - 10.4.2 Customizing Fill and Stroke Styles
-         - 10.4.2.1 Solid Colors
-         - 10.4.2.2 Linear and Radial Gradients
-         - 10.4.2.3 Patterns and Images
-   - 10.5 **Text Drawing and Styling**
-      - 10.5.1 Drawing Text: `fillText()`, `strokeText()`
-      - 10.5.2 Text Styling: Font, Size, Alignment, and Baseline
-      - 10.5.3 Text Metrics and Measuring Text Dimensions
-   - 10.6 **Transformations**
-      - 10.6.1 Translation: Moving the Canvas Origin
-      - 10.6.2 Rotation: Rotating the Canvas
-      - 10.6.3 Scaling: Resizing the Canvas
-      - 10.6.4 Applying Multiple Transformations
-   - 10.7 **Working with Images**
-      - 10.7.1 Drawing Images: `drawImage()` Method
-      - 10.7.2 Image Slicing and Cropping
-      - 10.7.3 Manipulating Image Data: `getImageData()`, `putImageData()`
-      - 10.7.4 Using Canvas as a Data Source: Exporting to PNG/JPEG
-   - 10.8 **Animations and Interactivity**
-      - 10.8.1 Creating Animations with `requestAnimationFrame()`
-      - 10.8.2 Handling User Input: Mouse and Keyboard Events
-      - 10.8.3 Updating Canvas Content Dynamically
-   - 10.9 **Advanced Canvas Techniques**
-      - 10.9.1 Offscreen Canvas: Using `OffscreenCanvas` for Background Processing
-      - 10.9.2 Image and Video Effects: Filters and Compositing
-      - 10.9.3 Using WebGL for Complex 3D Graphics
-      - 10.9.4 Integrating Canvas with Other Web Technologies
-   - 10.10 **Performance Considerations**
-      - 10.10.1 Optimizing Canvas Rendering
-      - 10.10.2 Managing Large Drawings and Redraws
-      - 10.10.3 Efficiently Handling User Interactions
+1.4 Drawing Text on Canvas
+         - 11.2.1.5 Handling Images and Patterns
+         - 11.2.1.6 Handling Transparency and Global Alpha
+         - 11.2.1.7 Transformations: Rotate, Scale, Translate
+         - 11.2.1.8 Saving and Restoring Canvas State
+         - 11.2.1.9 Handling Pixel Manipulation: ImageData
+         - 11.2.1.10 Animations and Game Development using Canvas
+      - 11.2.2 WebGL (3D Rendering)
+         - 11.2.2.1 Introduction to WebGL
+         - 11.2.2.2 Setting Up WebGL Context
+         - 11.2.2.3 Drawing 3D Objects with WebGL
+         - 11.2.2.4 Using Shaders and Buffers
+         - 11.2.2.5 Integrating WebGL with 2D Canvas
 
-11. **Integrating JavaScript into HTML**
-   - 3.1 Block-Level vs Inline Elements: Display Characteristics
-   - 11.1 Introduction to Canvas
-   - 11.2 Internal JavaScript
-   - 11.3 External JavaScript
-   - 11.4 Asynchronous and Deferred JavaScript
-   - 11.5 Embedding JavaScript in HTML5 Data Attributes
+12. **Web Storage**
+   - 12.1 HTML5 Storage Options: LocalStorage vs SessionStorage
+   - 12.2 Using LocalStorage for Persistent Data Storage
+   - 12.3 SessionStorage: Temporary Data Storage
+   - 12.4 Managing Cookies with JavaScript
+
+13. **Accessibility in HTML**
+   - 13.1 Importance of Web Accessibility
+   - 13.2 ARIA (Accessible Rich Internet Applications)
+   - 13.3 Using Semantic Elements for Better Accessibility
+   - 13.4 Accessibility Best Practices for Forms, Tables, and Media
+
+14. **SEO Best Practices with HTML**
+   - 14.1 Importance of Semantic HTML for SEO
+   - 14.2 Using Meta Tags for Better SEO
+   - 14.3 Structuring Content with Headings and Semantic Elements
+   - 14.4 Image Optimization and Alt Text for SEO
+   - 14.5 SEO-Friendly URLs and HTML5 PushState
+   - 14.6 Integrating Social Media: Open Graph, Twitter Cards
+
+15. **HTML and CSS Frameworks**
+   - 15.1 Introduction to CSS Frameworks: Bootstrap, Foundation
+   - 15.2 Using Bootstrap to Create Responsive Layouts
+   - 15.3 Integrating Google Fonts and Font Awesome Icons
+   - 15.4 Using Preprocessors: LESS, Sass with HTML
+   - 15.5 Creating Modular and Maintainable CSS
+
+16. **Responsive Web Design**
+   - 16.1 **Introduction to Responsive Web Design**
+      - 16.1.1 What is Responsive Web Design?
+      - 16.1.2 The Role of Media Queries in Responsive Design
+      - 16.1.3 Designing for Multiple Devices and Screen Sizes
+      - 16.1.4 Responsive Grid Systems and Flexbox
+   - 16.2 **Optimizing Images and Media for Responsive Design**
+      - 16.2.1 Using `srcset` and `picture` Elements
+      - 16.2.2 Responsive Typography with CSS
+      - 16.2.3 Adaptive Layouts with CSS Grid and Flexbox
+   - 16.3 **Testing and Debugging Responsive Designs**
+      - 16.3.1 Using Browser DevTools for Responsive Testing
+      - 16.3.2 Emulating Different Devices and Screen Sizes
+      - 16.3.3 Performance Considerations in Responsive Design
+
+17. **HTML Best Practices and Performance Optimization**
+   - 17.1 **Writing Clean and Maintainable HTML**
+      - 17.1.1 Best Practices for Structuring HTML Code
+      - 17.1.2 Avoiding Inline Styles and Scripts
+      - 17.1.3 Using HTML Comments Effectively
+   - 17.2 **Optimizing HTML Performance**
+      - 17.2.1 Minification and Compression Techniques
+      - 17.2.2 Lazy Loading of Images and Videos
+      - 17.2.3 Prefetching and Preloading Resources
+      - 17.2.4 Caching Strategies for HTML Documents
+   - 17.3 **Cross-Browser Compatibility**
+      - 17.3.1 Ensuring Compatibility with Older Browsers
+      - 17.3.2 Using Feature Detection with Modernizr
+      - 17.3.3 Handling Browser-Specific Issues and Bugs
+      - 17.3.4 Testing HTML across Different Browsers
+
+18. **Integrating HTML with Other Web Technologies**
+   - 18.1 **HTML and JavaScript**
+      - 18.1.1 Manipulating the DOM with JavaScript
+      - 18.1.2 Event Handling in HTML Elements
+      - 18.1.3 AJAX and Fetch API for Dynamic Content
+   - 18.2 **HTML and CSS**
+      - 18.2.1 Using CSS to Style HTML Elements
+      - 18.2.2 Advanced CSS Techniques: Flexbox, Grid, Transitions
+   - 18.3 **HTML and Server-Side Technologies**
+      - 18.3.1 Integrating HTML with PHP, ASP.NET, Node.js
+      - 18.3.2 Templating Engines: EJS, Pug, Handlebars
+      - 18.3.3 Handling Form Submissions and Data Processing
+   - 18.4 **Working with Web APIs and Third-Party Services**
+      - 18.4.1 Using RESTful APIs in HTML Applications
+      - 18.4.2 Integrating Google Maps, Twitter, and Facebook APIs
+      - 18.4.3 Working with JSON and XML Data in HTML
+
+19. **HTML and Progressive Web Apps (PWAs)**
+   - 19.1 **Introduction to PWAs**
+      - 19.1.1 What is a Progressive Web App?
+      - 19.1.2 The Role of HTML in PWAs
+      - 19.1.3 Service Workers and Caching Strategies
+      - 19.1.4 Creating Installable PWAs with HTML
+   - 19.2 **Advanced PWA Features**
+      - 19.2.1 Push Notifications and Background Sync
+      - 19.2.2 Offline Capabilities with IndexedDB and Cache API
+      - 19.2.3 App Shell Architecture and Performance Optimization
+   - 19.3 **Testing and Deploying PWAs**
+      - 19.3.1 PWA Testing Tools and Techniques
+      - 19.3.2 Deploying PWAs on the Web
+
+20. **The Future of HTML**
+   - 20.1 **HTML5.2 and Beyond**
+      - 20.1.1 New and Upcoming Features in HTML5.2
+      - 20.1.2 Web Components and Shadow DOM
+      - 20.1.3 Future of HTML in Web Development
+   - 20.2 **Best Practices for Staying Updated**
+      - 20.2.1 Following Web Standards and W3C Recommendations
+      - 20.2.2 Learning Resources and Communities for HTML Developers
+      - 20.2.3 Keeping Up with Browser Updates and Features
