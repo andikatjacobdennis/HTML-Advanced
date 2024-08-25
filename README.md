@@ -185,5 +185,3 @@
       - 10.10.1 Optimizing Canvas Rendering
       - 10.10.2 Managing Large Drawings and Redraws
       - 10.10.3 Efficiently Handling User Interactions
-
----
