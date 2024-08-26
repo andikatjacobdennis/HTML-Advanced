@@ -3,6 +3,7 @@
 1. **Introduction to HTML5**
    - 1.1 HTML Overview
    - 1.2 HTML vs. XHTML
+   - 1.3 HTML Version History
 
 2. **Basic Structure of an HTML Document**
    - 2.1 `<!DOCTYPE>` Declaration
