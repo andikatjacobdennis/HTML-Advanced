@@ -1,26 +1,3 @@
-Here's an easy acronym to remember the key HTML syntax elements in order:  
-
-**"HINTS LIFT FAST"**  
-
-Each letter represents an important HTML element:  
-- **H** → Headings (`<h1>`, `<h2>`...)  
-- **I** → Images (`<img>`)  
-- **N** → Navigation (`<nav>`)  
-- **T** → Tables (`<table>`, `<thead>`, `<tbody>`, `<tfoot>`)  
-- **S** → Sections (`<section>`, `<article>`, `<aside>`)  
-
-- **L** → Lists (`<ul>`, `<ol>`, `<dl>`)  
-- **I** → Inputs (`<input>`, `<form>`, `<label>`)  
-- **F** → Figures (`<figure>`, `<figcaption>`)  
-- **T** → Text Formatting (`<strong>`, `<em>`, `<mark>`)  
-
-- **F** → Footers (`<footer>`)  
-- **A** → Audio (`<audio>`)  
-- **S** → SVG (`<svg>`, `<circle>`)  
-- **T** → Text Content (`<p>`, `<blockquote>`)
-
-This mnemonic aligns with the order of elements in your HTML template. Hope it helps! 🚀
-
 ```html
 
 <!DOCTYPE html>
