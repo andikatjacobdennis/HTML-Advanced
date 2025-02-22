@@ -21,6 +21,8 @@ Each letter represents an important HTML element:
 
 This mnemonic aligns with the order of elements in your HTML template. Hope it helps! 🚀
 
+```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -178,3 +180,5 @@ This mnemonic aligns with the order of elements in your HTML template. Hope it h
 
 </body>
 </html>
+
+```
