@@ -1,5 +1,3 @@
-```html
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -7,15 +5,22 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>About Me - HTML Syntax Guide</title>
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <script src="script.js"></script>
+      <script src="script.js" defer></script>
       <link rel="icon" href="favicon.ico" type="image/x-icon">
       <meta name="description" content="Learn HTML through my personal About Me webpage">
+      <meta name="author" content="John Doe">
+      <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+      <base href="https://example.com/">
    </head>
    <body>
       <header>
          <h1>About Me</h1>
          <p>Welcome to my personal webpage, where I showcase my background and web development skills.</p>
-         <img src="profile.jpg" alt="My Profile Picture" width="200" height="200">
+         <picture>
+            <source media="(min-width: 800px)" srcset="profile-large.jpg">
+            <source media="(min-width: 400px)" srcset="profile-medium.jpg">
+            <img src="profile.jpg" alt="My Profile Picture" width="200" height="200">
+         </picture>
          <nav>
             <ul>
                <li><a href="#introduction">Introduction</a></li>
@@ -29,6 +34,10 @@
          <section id="introduction">
             <h2>Introduction</h2>
             <p>Hello! My name is John Doe, and I am a web developer passionate about creating intuitive and functional websites.</p>
+            <details>
+               <summary>More about me</summary>
+               <p>I have been developing websites for over 5 years and specialize in front-end technologies.</p>
+            </details>
          </section>
          <section id="skills">
             <h2>My Skills</h2>
@@ -40,6 +49,8 @@
                   <li>CSS - Styling web pages</li>
                   <li>JavaScript - Adding interactivity</li>
                </ul>
+               <meter value="90" min="0" max="100">90%</meter>
+               <progress value="75" max="100">75%</progress>
             </article>
          </section>
          <section id="examples">
@@ -49,6 +60,9 @@
                <p><strong>Bold Text</strong>, <em>Italic Text</em>, <u>Underlined Text</u></p>
                <p><mark>Highlighted Text</mark></p>
                <p>Subscript: H<sub>2</sub>O, Superscript: x<sup>2</sup></p>
+               <p><small>Small text for fine print</small></p>
+               <p><time datetime="2024-03-20">March 20, 2024</time></p>
+               <p><data value="123">Product ID</data></p>
             </article>
             <article>
                <h3>Forms</h3>
@@ -68,6 +82,13 @@
                      <input type="date" id="birthday" name="birthday">
                      <label for="profile_picture">Profile Picture:</label>
                      <input type="file" id="profile_picture" name="profile_picture" accept="image/*">
+                     <label for="browser">Choose browser from list:</label>
+                     <input list="browsers" id="browser" name="browser">
+                     <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                     </datalist>
                   </fieldset>
                   <fieldset>
                      <legend>Address</legend>
@@ -80,7 +101,10 @@
                         <option value="us">United States</option>
                         <option value="ca">Canada</option>
                         <option value="uk">United Kingdom</option>
-                        <!-- Add more countries as needed -->
+                        <optgroup label="Europe">
+                           <option value="fr">France</option>
+                           <option value="de">Germany</option>
+                        </optgroup>
                      </select>
                   </fieldset>
                   <fieldset>
@@ -113,7 +137,11 @@
                      <input type="url" id="website" name="website">
                      <label for="age">Age:</label>
                      <input type="number" id="age" name="age" min="13" max="120">
+                     <output name="result" for="age"></output>
                      <input type="hidden" name="registration_date" value="<?php echo date('Y-m-d'); ?>" disabled>
+                     <template>
+                        <div>This content is hidden during page load</div>
+                     </template>
                   </fieldset>
                   <input type="submit" value="Register">
                   <input type="reset" value="Reset">
@@ -127,7 +155,7 @@
                   <li>CSS Properties</li>
                   <li>JavaScript Functions</li>
                </ul>
-               <ol>
+               <ol reversed start="10">
                   <li>Plan the website structure</li>
                   <li>Write the HTML code</li>
                   <li>Style with CSS</li>
@@ -144,6 +172,10 @@
                <h3>Table Example</h3>
                <table>
                   <caption>Programming Languages Popularity</caption>
+                  <colgroup>
+                     <col span="1" style="background-color: #f0f0f0">
+                     <col span="1" style="background-color: #e0e0e0">
+                  </colgroup>
                   <thead>
                      <tr>
                         <th>Language</th>
@@ -171,14 +203,18 @@
          <aside>
             <h2>Did You Know?</h2>
             <p>HTML stands for HyperText Markup Language and is the backbone of the web!</p>
+            <ruby>
+               漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+            </ruby>
          </aside>
          <section id="contact">
             <h2>Contact Me</h2>
             <p>If you'd like to collaborate, feel free to reach out via email at <a href="mailto:john.doe@example.com">john.doe@example.com</a>.</p>
-            <video controls width="400">
+            <video controls width="400" poster="video-preview.jpg">
                <source src="introduction.mp4" type="video/mp4">
                <source src="introduction.ogg" type="video/ogg">
                <source src="introduction.webm" type="video/webm">
+               <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
                Your browser does not support the video tag.
             </video>
             <audio controls>
@@ -197,12 +233,18 @@
                   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
                </svg>
             </figure>
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
          </section>
       </main>
       <footer>
+         <address>
+            Contact: <a href="mailto:john.doe@example.com">John Doe</a><br>
+            123 Web Dev Street<br>
+            Internet City
+         </address>
          <p>&copy; 2024 John Doe - All rights reserved.</p>
+         <p><bdi>User123</bdi>: 5 stars</p>
+         <p><wbr>verylongwordthatneedstobreakatsomepoint</wbr></p>
       </footer>
    </body>
 </html>
-
-```
